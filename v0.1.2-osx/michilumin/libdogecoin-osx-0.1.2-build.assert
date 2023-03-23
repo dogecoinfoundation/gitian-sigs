@@ -1,11 +1,11 @@
 --- !!omap
-- out_manifest: 'f578f5754a89b06282fa8a73ae33d9edabcace69ebb11a0a60d4f57878e50ad8  src/libdogecoin-0.1.2-x86_64-apple-darwin14.tar.gz
+- out_manifest: 'ad71fbf07933e49c21c5811ccab20993d25e3621a3497a4ca7f155e8b793c763  src/libdogecoin-0.1.2-x86_64-apple-darwin14.tar.gz
 
     '
 - in_manifest: |-
     0d885091691ee62e7ee661c9ddbfe42f0799b4d679d0f7d28f7ee1904e23bb3a  libdogecoin-osx-0.1.2-desc.yml
     be17f48fd0b08fb4dcd229f55a6ae48d9f781d210839b4ea313ef17dd12d6ea5  Xcode-12.1-12A7403-extracted-SDK-with-libcxx-headers.tar.gz
-    git:61f104f42cc7c2a40d91dfa78ee0c73565bc5f91 libdogecoin
+    git:c3bb61acbcc1fb9cd32b891da385877a9d9d3130 libdogecoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -291,12 +291,12 @@
     3ed7c864a5614eb7a37a1d9ebc02244fa4d31b9e4f4afcbcdfb50c8235a9cd4b  x86_64-apple-darwin14/libunistring/libunistring-1.1-8c63a4093e9.tar.gz.hash
     23ef6057bed13cb087cb783f24cb2d66e41ccb814be8fd5f72e8ba27234e7f07  x86_64-apple-darwin14/native_ccache/native_ccache-3.3.3-28068be6d7c.tar.gz
     3b2e0941c387ab2425d1287d60b6754361569c5074b5c89fa653debbb7c4d90a  x86_64-apple-darwin14/native_ccache/native_ccache-3.3.3-28068be6d7c.tar.gz.hash
-    9079000a7b0eecec25cf1eb497d0f31ad93d7cfb42cac2c299f1478c382c9d34  x86_64-apple-darwin14/native_cctools/native_cctools-2ef2e931cf641547eb8a68cfebde61003587c9fd-5cd9de76155.tar.gz
-    1f5373bd970e47931eb4fadc8515d02f3e8c42e2bce38ede91a4f0ee631e8ca0  x86_64-apple-darwin14/native_cctools/native_cctools-2ef2e931cf641547eb8a68cfebde61003587c9fd-5cd9de76155.tar.gz.hash
+    243cdda376d6f5375a845af866ad7cbd56c5ced0732318f0fd46590fe80d05ad  x86_64-apple-darwin14/native_cctools/native_cctools-2ef2e931cf641547eb8a68cfebde61003587c9fd-5cd9de76155.tar.gz
+    27b3a1e71721110055f278b7187a3b39af2389d960dbea13e4cae7a61ecc4c3f  x86_64-apple-darwin14/native_cctools/native_cctools-2ef2e931cf641547eb8a68cfebde61003587c9fd-5cd9de76155.tar.gz.hash
     c80aa6b5da3eadf36ce47fe6c283ecd45150bfe49105b0c35e5204c7552f91db  x86_64-apple-darwin14/native_clang/native_clang-8.0.0-ba89b5c1fd9.tar.gz
     622cff07ac7f5992357f93d2b14516901a25ca363e6323b320a73d81513a0be9  x86_64-apple-darwin14/native_clang/native_clang-8.0.0-ba89b5c1fd9.tar.gz.hash
-    8dbb1da64c21d7385ddb6baed7802a816a68d50e175e66c24f382e2362ffb695  x86_64-apple-darwin14/native_libtapi/native_libtapi-664b8414f89612f2dfd35a9b679c345aa5389026-7901f222f63.tar.gz
-    9087851e1c5f9d03ec3371ba4a7df9ef03954c37d611d62930e4bb68fdf9e5cc  x86_64-apple-darwin14/native_libtapi/native_libtapi-664b8414f89612f2dfd35a9b679c345aa5389026-7901f222f63.tar.gz.hash
+    8f42c922358e44c69c72aaa877058d772bd6e479172a44e0ed03811045dc5c91  x86_64-apple-darwin14/native_libtapi/native_libtapi-664b8414f89612f2dfd35a9b679c345aa5389026-7901f222f63.tar.gz
+    447281d6e57217dee3f4fec4856b7f3d5d0e4a9474f2a17b1d732ba38056f404  x86_64-apple-darwin14/native_libtapi/native_libtapi-664b8414f89612f2dfd35a9b679c345aa5389026-7901f222f63.tar.gz.hash
 - release: v0.1.2-osx
 - name: libdogecoin-osx-0.1.2
 - type: build
