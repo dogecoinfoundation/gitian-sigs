@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    95806283d10ef17feeea5820fa5987e6416a847bd23362b17a71357a2e547897  src/libdogecoin-0.1.2-aarch64-linux-gnu.tar.gz
-    566202859e708c55a9101e1e8a9e6f20ab970fd14a3b4ac97fe3ed132c69ca0c  src/libdogecoin-0.1.2-arm-linux-gnueabihf.tar.gz
-    de8855f6797225c2382424b022e729868fcfad36dff91954a7c0468726669919  src/libdogecoin-0.1.2-i686-pc-linux-gnu.tar.gz
-    da3cd0b3d9a8f4e86e586534b5f6c69f33c1f93b6f0ada6cc67822bd1dfb504b  src/libdogecoin-0.1.2-x86_64-pc-linux-gnu.tar.gz
-    7f0f2b3bda3ed5e22a6366588dbb4d5261fb0f9f81e6ac3ed29b3278f582659e  src/libdogecoin-0.1.2.tar.gz
+    c3c6ec063f0509d9f76ed1d7c4e06f99808c642588bfd024a8704d32a75c0e18  src/libdogecoin-0.1.2-aarch64-linux-gnu.tar.gz
+    b7ef6c4254a9bed1aaaef4f3d8963e4aafe54ea2e72d666f1a05f32b1008c42e  src/libdogecoin-0.1.2-arm-linux-gnueabihf.tar.gz
+    95ffbf4e9d32ad05dd119f93340265c16f8b2f57aa805fdfb27a6fb7f354b904  src/libdogecoin-0.1.2-i686-pc-linux-gnu.tar.gz
+    165748dd29cea8d0c77447d38319346598fcc4df9238782b7786ed1cb30dff09  src/libdogecoin-0.1.2-x86_64-pc-linux-gnu.tar.gz
+    6f31e023ab5327733dedc9ebc7cc51bbfe86f026df49377274e799ba89c8be99  src/libdogecoin-0.1.2.tar.gz
 - in_manifest: |-
     14028a517b3292f4c9c542991494bb94a9640b4fd1cc96924344343540acfb9a  libdogecoin-linux-0.1.2-desc.yml
-    git:61f104f42cc7c2a40d91dfa78ee0c73565bc5f91 libdogecoin
+    git:c3bb61acbcc1fb9cd32b891da385877a9d9d3130 libdogecoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb

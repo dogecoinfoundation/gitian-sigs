@@ -1,11 +1,11 @@
 --- !!omap
 - out_manifest: |
-    04fd3f2bad86c2366ea03a4875221e60691f734b23b1fefa749121d82016714e  src/libdogecoin-0.1.2-i686-w64-mingw32.zip
-    4c4baa7d16e37d0db9c77d885a8895adf989e8e2e6a7f338508a7b69088db9f5  src/libdogecoin-0.1.2-x86_64-w64-mingw32.zip
-    e00b66a82f8b395ce27b68ad69f2a1019bf1f55c8b967f8c95a5cf4be7a97fac  src/libdogecoin-0.1.2.zip
+    9a67f7033c49ec6a8d03f39b68b578302ad393b62a150bb5b6dc9ea454d438b6  src/libdogecoin-0.1.2-i686-w64-mingw32.zip
+    5267f74e15514360ce9d3485873361a92497ff9a7237061324ba169545f343fb  src/libdogecoin-0.1.2-x86_64-w64-mingw32.zip
+    a9fe861e57abf64e3443c5b666da04fd131fcdae302696cca5b2d767605cdf5e  src/libdogecoin-0.1.2.zip
 - in_manifest: |-
     33f68fb0be22e7463dcfe62550b487f8cf9f737da338c475e7f4f5e6208c2e26  libdogecoin-win-0.1.2-desc.yml
-    git:61f104f42cc7c2a40d91dfa78ee0c73565bc5f91 libdogecoin
+    git:c3bb61acbcc1fb9cd32b891da385877a9d9d3130 libdogecoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
